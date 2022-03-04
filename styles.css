@@ -4,23 +4,23 @@ html {
 	flex-direction: column;
 	font-family: "Roboto", "Monospace", sans-serif;
 	background-color: #1f2937;
+	color: #f9faf8;
 }
 
-.head {
+.site-header {
 	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-between;
-	color: #f9faf8;
+	align-items: center;
 }
 
 .logo {
-	display: flex;
-	justify-content: space-between;
 	text-align: center;
-	height: 100px;
+	padding: 4px;
 	width: 100px;
-	border-radius: 100px;
-	border: 2px solid #f9faf8;
-	color: #f9faf8;
+	border-radius: 50px;
+	border: 2px dashed #f9faf8;
 	font-size: 24px;
 }
 
@@ -31,16 +31,10 @@ a {
 	padding: 6px 12px;
 }
 
-.links {
-	display: flex;
-	margin-left: auto;
-}
-
 .image-2 {
 	display: flex;
 	margin-right: auto;
 	background-color: grey;
-	color: #f9faf8;
 	
 }
 
@@ -63,5 +57,4 @@ footer {
 	justify-content: center;
 	font-weight: light;
 	font-size: 18px;
-	color: #f9faf8;
 }
